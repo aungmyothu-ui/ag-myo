@@ -1,0 +1,132 @@
+#logo{
+	width: 80px;
+	height: 80px;
+	background-color: yellow;
+	padding-top: 20px;
+}
+
+*{
+	font-family: all;
+}
+
+#banner{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(
+		to bottom, rgba(6,12,34,0.8)0,
+	  rgba(6,12,34,0.8)100%),
+	url(photo/21.jpg);
+
+		
+
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+#one{
+	color: red;
+}
+
+a#aboutbtn{
+	border-radius: 50px;
+	padding: 12px 32px;
+	border: 2px solid #f82249;
+	color: #fff; 
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+ a#aboutbtn:hover{
+	background-color: #f82249;
+	color: #fff;
+}
+
+#two{
+	border-radius: 50px;
+	padding: 12px 32px;
+	border: 2px solid #f82249;
+	background-color: #f82249;
+	color: #fff; 
+	transition: 0.5s;
+	animation-delay: 0.8s;
+	-webkit-animation-delay:0.8s;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+#two:hover{
+	background-color: transparent;
+	color: #f82249;
+}
+
+a.nav-item{
+	color: rgba(202,206,221,0.8);
+	font-weight: 600;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+a.nav-item.active, a.nav-link:hover{
+	border-bottom: 2px solid #f82249;
+	transition: 0.5s;
+	animation-delay: 0.8s;
+}
+
+#about{
+
+	width: 100%;
+	background: linear-gradient(
+		to bottom, rgba(6,12,34,0.8)0,
+	  rgba(6,12,34,0.8)100%),
+	url(photo/20.jpg);
+
+		
+
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+
+}
+
+.A{
+	background-color: black;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		padding-top: 10px;
+		text-align: center;
+		width: 100%;
+	
+}
+
+.B
+{
+	position: relative;
+	overflow: hidden;
+}
+
+.navbar-default.scrolled{
+	background-color: red;
+}
+
+div.row .E{
+	margin-left: 100px;
+}
+
+ #Z div.container  img{
+	border-radius: 50%;
+}
+
+#schedule div.row .F{
+	padding-right: 90%;
+}
+
+#I div{
+	display: flex;
+}
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="icon/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+  
+
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript">
+		
+           $(document).ready(function(){
+                   
+               
+                $("#one").hover(function(){
+                	$(".A").show();
+                
+                
+                
+
+
+
+
+
+                });
+
+           });
+
+           var fruits=["Banana","Orange","Apple","Mangoo"];
+           document.getElementById("demo").innerHTML=fruits;
+
+           function myfunction(){
+           	fruits.push("Kiwi");
+           	document.getElementById("demo").innerHTML=fruits;
+           }
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+
+
+
+
+
+
+
+
+    <style type="text/css">
+
+    	.A{
+	background-color: black;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		padding-top: 10px;
+		text-align: center;
+		width: 100%;
+		display: none;
+	
+}
+
+    .B {
+
+	position: relative;
+	overflow: hidden;
+}
+    	
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+	  <div class="B">
+         <img src="photo/26.jpg" class="img-fluid py-3" style="height: 17rem; width: 100%;" id="one">
+          <div class="A text-white">
+           <h3>Brenderi Legos</h3>
+           <p>dkjaweeirjfiwo</p>
+         </div>
+       </div>
+
+       <p id="demo"></p>
+
+       <button onclick="myfunction()">Try it</button>
+
+
+
+
+
+
+</body>
+</html>
